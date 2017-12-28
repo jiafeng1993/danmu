@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+*:not(input) {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background: url(../images/mobile.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+#start{
+	height: 1.5rem;
+    width: 47%;
+	line-height: 1.5rem;
+	text-align: center;
+	position: absolute;
+	bottom: 2rem;
+	left: 0;
+}
+#end{
+	height: 1.5rem;
+    width: 47%;
+	line-height: 1.5rem;
+	text-align: center;
+	position: absolute;
+	bottom: 2rem;
+	right: 0;
+}
+#run{
+	height: 2.6rem;
+  width: 2.6rem;
+  text-align: center;
+	border-radius: 50%;
+	background: #363e34;
+	position: absolute;
+	top: 34%;
+	left: 37%;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 -0.2rem 0 rgba(0, 0, 0, 0.25), 0 0.2rem 0.2rem rgba(0, 0, 0, 0.05);
+}
+
+
+.run{
+	display: block;
+	height: 2.5rem;
+  width: 2.5rem;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  color: #bc1d00;
+  font-size: 30px;
+  font-weight: bold;
+	line-height: 1.5rem;
+	background: #ffff00;
+	text-align: center;
+	line-height: 2.2rem;
+	box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 -0.3rem 0 rgba(0, 0, 0, 0.25), 0 0.3rem 0.3rem rgba(0, 0, 0, 0.05);
+}
+.run:hover{
+	text-decoration: none;
+}
+.run:active {
+    outline: none;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+    margin-top: .2em;
+    padding-bottom: .5em; 
+    text-decoration: none;
+    
+}
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: .5rem;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), inset 0 -0.25em 0 rgba(0, 0, 0, 0.25), 0 0.25em 0.25em rgba(0, 0, 0, 0.05);
+  color: #bc1d00;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding: .5em 1.5em .75em;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.25);
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #ffff00;
+  font-size: 18px;        
+}
+.btn:hover{
+	text-decoration: none;
+}
+.btn:active {
+    outline: none;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.1), inset 0 0.25em 0.5em rgba(0, 0, 0, 0.05);
+    margin-top: .25em;
+    padding-bottom: .5em; 
+    text-decoration: none;
+}
+

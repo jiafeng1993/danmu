@@ -1,0 +1,228 @@
+body{
+	position: relative;
+}
+*{ 
+   padding: 0; 
+   margin: 0; 
+  } 
+ 
+.content{ 
+	width: 65%; 
+	height: 85vh;
+	position: relative; 
+	overflow: hidden; 
+	float: right;
+	margin-right: 2px; 
+    margin-top: 85px;
+} 
+   
+.person{
+   	width: 30%; 
+	height: 80vh; 
+	position: relative; 
+	overflow: hidden; 
+	float: left;
+	margin-top: 95px;
+	    
+} 
+.bullet{ 
+   position: absolute; 
+   word-break: keep-all; 
+   width: 1200px;
+   height: 50px;
+} 
+  .bullet img{
+  	width: 50px;
+  	height: 50px;
+  	border-radius:50%;
+  	float: left;
+  }
+  .bullet span{
+  	display: block;
+  	line-height: 35px;
+  	float: left;
+  }
+  .box{
+  	width: 100%;
+  	height: 100vh;
+  	position: absolute;
+  	z-index: 1000px;
+	background-color: rgba(0,0,0,0.0)!important;background-color: #000;filter:Alpha(opacity=0);
+  }
+
+.boxBg{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+}
+.chou{
+	position: absolute;
+	z-index: 5000;
+	right: 20px;
+	top: 10px; 
+}
+.chou h3:hover{background: #008000;}
+.chou h3{
+	width: 100px; 
+    height: 35px; 
+    border: none; 
+    margin-left: 10px; 
+    background-color:#339B53; 
+    border-radius:5px; 
+    color: white; 
+    cursor: pointer;
+    text-align: center;
+    line-height: 35px;
+}
+.jiang{
+	height: 100vh;
+	width: 100%;
+	display: none;
+	position: absolute;
+	z-index: 2000;
+	background: url(../images/jiang.jpg) no-repeat;
+	background-size: 100% 100%;
+	
+}
+.jiangBox{
+	background-color:rgba(0,0,0,0.0);
+	text-align:center;
+	padding-top:120px;
+}
+#Result{
+	border:3px solid #e2a026;
+	margin:0 auto;
+	text-align:center;
+	width:30%;
+	height: 16vh;
+	margin-top: 30px;
+	padding:50px 0;
+	background:#efe;
+	margin-top: 25px;
+}
+#ResultNum{
+	font-size:55pt;
+	font-family:Verdana;
+	line-height: 95px;
+}
+#ResultNum1{
+	margin: 0 auto;
+	width: 150px;
+	height: 95px;
+	margin-top: 10px;
+	font-size:60pt;
+	font-weight: bold;
+	font-family:Verdana;
+	display: none;
+    font-family: '微软雅黑';
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(226, 195, 22, 1)), to(rgba(226, 32, 22, 1)));
+    line-height: 95px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: warn 4s ease-out;
+     animation-iteration-count: infinite;
+}
+  @keyframes warn {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.2); 
+    }
+    50% {
+        transform: scale(2);
+    }
+    75% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);  
+    }
+  }
+
+
+#Button{margin:50px 0 0 0;}
+#Button input{
+	font-size:40px;
+	padding:0 50px;
+}
+#btn{
+	background-color:#e6ab2b;
+    border:none;
+    width:20%;
+    height:55px;
+    line-height: 55px;
+    margin:0px auto;
+    font-size:16px;
+    border-radius:5px;
+    color:#FFF;
+    text-align: center;
+}
+#navBar .dm_tool{  
+    width: 100%;  
+    height: 40px;  
+    background: #ccc;   
+}  
+  
+#navBar .dm_tool .dm_con{  
+    width: 600px;  
+    height: 38px;  
+    outline: none;  
+    border: 1px solid #ccc;  
+}  
+  
+#navBar .dm_tool .sendToDm{  
+    width: 90px;
+    height: 40px;  
+    background: limegreen;  
+    color: white;  
+    outline: none;  
+    border: 0;    
+    cursor:pointer;  
+}  
+  
+#navBar .dmArea{  
+    width:100%;  
+    height:80vh;
+    overflow:hidden;
+}  
+  
+#navBar .dmArea div{
+    white-space:nowrap;  
+    position:absolute;
+    border-radius: 10px;
+} 
+.dmArea div img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+	/*border: 1px solid goldenrod;*/
+}
+.dmArea div p{
+	/*border: 1px solid goldenrod;*/
+	margin-left: 30px;
+	padding-left: 15px;
+	height: 40px;
+	margin-top: 4px;
+	border-radius: 10px;
+	border-left: none;
+	padding-right: 10px;
+	background-color: rgba(0, 0, 0, 0.578);
+}
+.dmArea div b,.dmArea div span{
+	margin-left: 3px;
+	line-height: 40px;
+}
+.ewm{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	z-index: 50000;
+}
+.ewm img{
+	width: 100%;
+}
